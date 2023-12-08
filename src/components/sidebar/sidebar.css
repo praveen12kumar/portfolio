@@ -1,0 +1,45 @@
+.sidebar{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    background-color: #0c0c1d;
+    
+    z-index: 2;  
+    position: fixed;
+    top: 0px;
+    left: 0px;   
+}
+
+.sidebar-links{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: lightgray;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar-group a{
+    font-size: 1.3rem; 
+    font-family: "poppins"; 
+    color: #0c0c1d;
+}
+
+.cross{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    overflow: hidden;
+}
+
+.cross button{
+    border: none;
+    background-color:lightgray;
+    color: #0c0c1d;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+

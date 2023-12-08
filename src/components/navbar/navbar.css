@@ -1,0 +1,80 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+.logo{
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.title{
+    font-size: 3vw;
+    font-family: "Ephesis";
+    font-weight:bolder;
+}
+
+.menu-btn{
+    display: none;
+}
+.menu-icon{
+    background-color: inherit;
+    color: lightgray;
+    border: none;
+    font-size: 2rem;
+}
+
+.page-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding-right: 2em;
+}
+
+.page-links li a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 3vw;
+        
+    }
+    .menu-btn{
+        display: block;
+        padding-top: 5px;
+    }
+
+    .page-links{
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px){
+    .menu-btn{
+        display: none;
+    }
+    .title{
+        font-size: 18px;
+    }
+}
