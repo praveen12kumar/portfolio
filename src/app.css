@@ -16,8 +16,5 @@ body{
     color: lightgray;
 }
 
-.content{
-    scroll-snap-align: center;
-    /* border: 1px solid red; */
-}
+
 

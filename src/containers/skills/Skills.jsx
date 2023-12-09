@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 
 const iconVariants = {
   initial:{
-    x:-500,
+    x:-200,
     opacity:0,
   },
   animate:{
@@ -23,7 +23,7 @@ const iconVariants = {
 
 const imageVariants = {
   initial:{
-    x:500,
+    x:-200,
     opacity:0,
   },
   animate:{
