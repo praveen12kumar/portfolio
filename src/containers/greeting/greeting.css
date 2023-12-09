@@ -1,0 +1,157 @@
+.greeting{
+    width: 100vw; 
+    height: auto; 
+}
+
+.greeting-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textContainer{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.hello{
+    margin: 2vw 0;
+}
+
+.hello p{
+    font-size: 4vw;
+    font-family: "poppins";
+    color: darkgrey;
+    letter-spacing: 4px;
+}
+
+.handSign{
+    width:50px;
+    height: 100px;
+    margin-top: -20px;
+    display: flex;
+    align-items: self-start;
+
+}
+
+.myself p{
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+    font-family: "roboto";
+}
+
+.greeting-button-div{
+    width: 100%;
+    display:flex;
+}
+
+
+.greeting-imageContainer{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.greeting-imageContainer img{
+    width: 100%;
+    height: auto;   
+}
+
+
+.slidingTextContainer{
+    width: 100%;
+    font-size: 20vh;
+    font-weight: bold;
+    position: absolute;
+    text-transform: capitalize;
+    color: #ffffff09;
+    bottom: 0;
+    z-index: -10;
+}
+
+
+@media screen and (max-width:1024px){
+    .hello{
+        margin: 0;
+    }
+    .hello p{
+        font-size: 48px;
+    }
+    .myself p{
+        font-size: 28px;
+        line-height: 2rem;
+    }
+    .handSign{
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .greeting-main{
+        flex-direction: column;
+    }
+    .greeting-button-div{
+        justify-content: space-around;
+    }
+    .textContainer{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .greeting-imageContainer{
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .hello p{
+        font-size: 44px;
+    }
+    .handSign{
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+    .slidingTextContainer{
+        font-size: 15vh;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .slidingTextContainer{
+        font-size: 12vh;
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .slidingTextContainer{
+        font-size: 10vh;
+       
+    }
+}
+
+
+
+
+@media screen and (max-width:400px){
+    .myself p{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+
+    .greeting-button-div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

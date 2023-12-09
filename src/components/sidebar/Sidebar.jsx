@@ -1,5 +1,5 @@
 import React from 'react';
-import "./sidebar.css";
+import "./sidebar.scss";
 import { RxCross1 } from "react-icons/rx";
 import {motion} from "framer-motion"
 const Sidebar = ({openSidebar ,setOpenSidebar}) => {
@@ -12,10 +12,10 @@ const Sidebar = ({openSidebar ,setOpenSidebar}) => {
         stiffness:20,
       }
     },
-    close:{
+    closed:{
       clipPath: "circle(30px at 50px 50px)",
       transition:{
-        delay:1,
+        delay:2,
         type:"spring",
         stiffness:400,
         damping:40
@@ -23,28 +23,41 @@ const Sidebar = ({openSidebar ,setOpenSidebar}) => {
     },
   }
 
+  const itemVariants = {
+    open:{
+      y:0,
+      opacity:1
+    },
+    closed:{
+      y:50,
+      opacity:0,
+    }
+  }
+
+
+
   return (
-    <motion.div className='sidebar' animate={openSidebar? "open" : "close"} >
+    <motion.div className='sidebar' animate={openSidebar? "open" : "closed"} >
       <motion.div variants={variants} className="sidebar-links">
         <div className="sidebar-group">
-          <a href="#skills">Skills</a>
+          <motion.a href="#skills" variants={itemVariants}  >Skills</motion.a>
         </div>
         <div className="sidebar-group">
-          <a href="#projects">Projects</a>
+          <motion.a href="#projects" variants={itemVariants}   >Projects</motion.a>
         </div>
         <div className="sidebar-group">
-          <a href="#achievement">Achievement</a>
+          <motion.a href="#achievement" variants={itemVariants}>Achievement</motion.a>
         </div>
         <div className="sidebar-group">
-          <a href="#blogs">Blogs</a>
+          <motion.a href="#blogs" variants={itemVariants}  >Blogs</motion.a>
         </div>
         <div className="sidebar-group">
-          <a href="#contact">Contact Me</a>
+          <motion.a href="#contact" variants={itemVariants} >Contact Me</motion.a>
         </div>
       </motion.div>
-      <div className="cross">
+      <motion.div className="cross" animate={openSidebar? "open" : "closed"}>
         <button onClick={()=> setOpenSidebar((prev)=> !prev)} ><RxCross1/></button>
-      </div>
+      </motion.div>
     </motion.div>
   )
 }

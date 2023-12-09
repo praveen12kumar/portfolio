@@ -3,7 +3,7 @@ const greeting = {
     username: "Praveen Kumar",
     title: "Hi all, I'm Praveen",
     subTitle:  "A web developer, learning and applying the latest technologies and best practices in web development, such as ReactJS, NodeJS, Redux.js, and Back-End Web Development. Aim to become a leader in the tech industry who can create innovative and impactful solutions for society.",
-    resumeLink:""
+    resumeLink:"https://github.com/"
 };
 
 const socialMediaLinks = {
@@ -12,6 +12,7 @@ const socialMediaLinks = {
     twitter: "https://twitter.com/praveenshakya20",
     gmail:"praveenshakya1@gmail.com",
     facebook: "https://www.facebook.com/praveen.shakya.792",
+    instagram:"https://www.instagram.com/kumarpraveen1/",
     display:true,
 }
 

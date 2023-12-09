@@ -1,0 +1,56 @@
+@import "../../_globalColors.scss";
+
+.social-media-div{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vw;
+    margin: 2rem 0;
+}
+
+.icon-button{
+    height: 2em;
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $textColorDark;
+    font-size: 1.5em; 
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    transition: 0.2s ease-in-out;
+}
+
+.github{
+    background-color: $github;
+}
+
+.linkedin{
+    background-color: $linkedin;
+}
+
+.gmail{
+    background-color: $gmail;
+}
+.facebook{
+    background-color: $facebook;
+}
+
+.twitter{
+    background-color: $twitter;
+}
+
+.instagram{
+    background-color: $instagram;
+}
+
+@media screen and (max-width: 768px) {
+    .social-media-div{
+        justify-content: center;
+    }
+}
