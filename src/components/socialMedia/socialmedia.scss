@@ -54,3 +54,10 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width:500px) {
+    .icon-button{
+        height: 1.5em;
+        width: 1.5em;
+    }
+}

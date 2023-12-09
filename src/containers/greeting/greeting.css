@@ -113,6 +113,10 @@
     .hello p{
         font-size: 44px;
     }
+    .myself p{
+        font-size: 24px;
+        line-height: 2rem;
+    }
     .handSign{
         justify-content: center;
         margin: 0 auto;
@@ -129,24 +133,28 @@
 @media screen and (max-width:600px) {
     .slidingTextContainer{
         font-size: 12vh;
-        
+    }
+    .myself p{
+        font-size: 20px;
+        line-height: 1.8rem;
     }
 }
 
 @media screen and (max-width:500px) {
     .slidingTextContainer{
         font-size: 10vh;
-       
+    }
+    .myself p{
+        font-size: 18px;
+        line-height: 1.6rem;
     }
 }
 
 
-
-
 @media screen and (max-width:400px){
     .myself p{
-        font-size: 20px;
-        line-height: 2rem;
+        font-size: 16px;
+        line-height: 1.5rem;
     }
 
     .greeting-button-div{

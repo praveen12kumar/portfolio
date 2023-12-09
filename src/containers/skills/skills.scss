@@ -1,0 +1,112 @@
+@import "../../globalColors";
+
+#skills{
+    width: 100vw;
+    min-height: 80vh;
+}
+.skill-main{
+    width: 90%;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-develeper{
+    width: 35vw;
+    height: 50vh;
+}
+
+.skill-icons{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-heading{
+    font-size: 4em;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.skill-subheading{
+    margin-bottom: 2rem;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: $darkBoxShadow;
+}
+
+.skill-section ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    color: $darkBoxShadow;
+    
+}
+
+.software-skill-inline{
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-label{
+    font-size: 12px;
+}
+
+.skill-icon:hover{
+    color: #3FAFA1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .skill-main{
+        flex-direction: column-reverse;
+        align-items: center;
+       
+    }
+    .skill-icons{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: -4em;
+    }
+
+    .skill-section ul{
+        margin: 0;
+        justify-content: center;
+    } 
+    .skill-heading{
+        font-size: 2.5em;
+        font-family: "poppins";
+        font-weight: 400;
+        text-align: center;
+    }  
+    .skill-subheading{
+        font-size: 1em;
+    }
+    .software-skill-inline{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skill-icons{
+        margin-bottom: -2rem;
+    }
+
+    .skill-develeper{
+        width: 50vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skill-icons{
+        margin-bottom: 1rem;
+    }
+}
