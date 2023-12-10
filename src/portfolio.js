@@ -102,7 +102,68 @@ const skillsSection = {
         ]
       },
     ]
+  };
+
+
+  const myProjects = {
+    title: "What i did",
+    display: true, // Set false to hide this section, defaults to true
+    projects: [
+      {
+        image: "https://i.ibb.co/tMCgjNP/social-media.png",
+        projectName: "Socially",
+        projectDesc:
+          "A social media website where you can connect with your friends!",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://socially-media.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/praveen12kumar/socially"
+          }
+          //  you can add extra buttons here.
+        ]
+      },
+      {
+        image: "https://i.ibb.co/7KGn5Bb/apna-pustakalaya.png",
+        projectName: "Apna Pustakalaya",
+        projectDesc: "A books e-commerce website for all book lovers!",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://apna-pustakalaya.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/praveen12kumar/apna-pustkalaya"
+          }
+        ]
+      },
+      {
+        image: "https://i.ibb.co/k1DVgpg/component.png",
+        projectName: "CSS Component Library",
+        projectDesc:
+          "A small app containing different components with their documentation in React JS.",
+        footerLink: [
+          {
+            name: "Visit Website",
+            url: "https://ui-component-css.netlify.app/"
+          },
+          {
+            name: "View Source Code",
+            url: "https://github.com/praveen12kumar/component-lib"
+          }
+        ]
+      },
+    ]
   }
+
+
+
+
+
 
   const contactInfo = {
     title: "Contact Me ☎️",
@@ -122,4 +183,5 @@ export {
     eductionInfo,
     workExperiences,
     contactInfo,
+    myProjects,
 }

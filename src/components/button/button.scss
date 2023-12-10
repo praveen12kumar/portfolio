@@ -1,7 +1,7 @@
 @import"../../globalColors";
 
 .main-button {
-    background-color: $buttonColor;
+    background-color: cadetblue;
     border: solid 1px $buttonColor;
     color: $textColorDark;
     font-weight: 700;
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-color: cadetblue;
   }
   .project-button > .main-button {
     margin-right: 0 !important;
