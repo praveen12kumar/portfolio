@@ -1,0 +1,68 @@
+@import "../../globalColors";
+
+#contact{
+    width: 100vw;
+    min-height: 40vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;  
+}
+
+.contact-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title{
+    font-size: 3em;
+    font-family: "poppins";
+    margin-bottom: 1rem;
+};
+
+.contact-sub{
+    font-size: 1.2em;
+    font-family: "poppins";
+    margin-bottom: 0.5em;
+}
+
+.contact-number{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 0.2em;
+}
+
+.contact-email{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: "poppins";
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-main{
+        align-items: center;
+    }
+
+    .contact-title{
+        font-size: 2.5em;
+    }
+    .contact-sub{
+        font-size: 1em;
+    }
+    .contact-number{
+        font-size: 1.2em;
+    }
+    .contact-email{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-title{
+        font-size: 2em;
+    }
+}

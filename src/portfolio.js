@@ -169,8 +169,8 @@ const skillsSection = {
     title: "Contact Me ☎️",
     subtitle:
       "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+91-8975751438",
-    email_address: "kesarwani.neha9@gmail.com"
+    number: "+91-8130221540",
+    email_address: "praveenshakya1@gmail.com"
   };
 
 
