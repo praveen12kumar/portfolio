@@ -64,3 +64,21 @@
     line-height: 1.3rem;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width:900px) {
+    .exp-role{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .exp-role{
+        font-size: 1em;
+    }
+    .exp-desc{
+        font-size: 1em;
+    }
+    .exp-point{
+        font-size: 0.9em;
+    }
+}

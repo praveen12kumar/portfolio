@@ -4,6 +4,25 @@ import projects from "../../assets/lottie/projects.json";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import { myProjects } from "../../portfolio";
 import "./project.scss";
+import {motion} from "framer-motion";
+
+
+const projectVariants = {
+  initial:{
+    x:-300,
+    opacity:0,
+  },
+  animate:{
+    x:0,
+    opacity:1,
+    transition:{
+      duration:1,
+      staggerChildren:0.1
+    }
+  }
+}
+
+
 
 const Projects = () => {
   console.log("Projects", myProjects);
@@ -11,7 +30,10 @@ const Projects = () => {
 
   return (
     <div className="content" id="projects">
-      <div className="project-main">
+      <motion.div className="project-main"
+        variants={projectVariants} initial="initial" whileInView="animate"
+      
+      >
         <p className="project-title">{myProjects.title}</p>
         <div className="project-container">
           <div className="project-left-div">
@@ -23,7 +45,7 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

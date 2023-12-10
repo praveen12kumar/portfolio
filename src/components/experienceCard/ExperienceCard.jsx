@@ -18,7 +18,7 @@ const ExperienceCard = ({experience}) => {
         <p className='exp-desc'>{experience.desc}</p>
         <div className="">
           {experience.descBullets.map((point)=>(
-            <li>{point}</li>
+            <li className='exp-point'>{point}</li>
           ) )}
         </div>
       </div>

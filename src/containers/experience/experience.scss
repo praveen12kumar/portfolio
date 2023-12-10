@@ -1,3 +1,4 @@
+@import "../../globalColors";
 .experience{
     width: 100vw;
     min-height: 70vh;
@@ -16,6 +17,7 @@
   font-weight: 500;
   font-family: "poppins";
   letter-spacing: 2px;
+  color: $darkBoxShadow;
 }
 
 .horizontal {
@@ -31,16 +33,30 @@
     display: flex;
 }
 
+
+@media screen and (max-width:900px) {
+    .exp-main h1{
+        font-size: 3em;
+    }   
+}
+
 @media screen and (max-width:768px) {
     .exp-main{
         width: 100%;
     }
     .exp-main h1{
         text-align: center;
+        font-size: 2.5em;
     }
 
     .exp-container{
         justify-content: center;
     }
+}
+
+@media screen and (max-width:500px) {
+    .exp-main h1{
+        font-size: 2.2em;
+    }   
 }
 
