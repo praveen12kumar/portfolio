@@ -89,11 +89,11 @@ const skillsSection = {
 
   const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
-    experience: [
+    experiences: [
       {
         role: "Web Development Student",
         company: "neoG Camp",
-        companylogo: "./assets/images/neogLogo.jpg",
+        companylogo: "https://i.ibb.co/T0dk7nJ/neog.png",
         date: "Feb 2023 – Present",
         desc: "A part of web development (MERN stack) bootcamp",
         descBullets: [

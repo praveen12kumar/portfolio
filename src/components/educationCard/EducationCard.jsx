@@ -1,8 +1,9 @@
 import React from 'react'
 import "./educationCard.scss";
 
+
+
 const EducationCard = ({college}) => {
-    console.log("college",college);
   return (
     <div className='education-card'>
       <div className="college-logo">

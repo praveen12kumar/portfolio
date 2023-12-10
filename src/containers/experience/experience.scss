@@ -1,0 +1,46 @@
+.experience{
+    width: 100vw;
+    min-height: 70vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;   
+}
+
+.exp-main{
+    width: 50%;
+    height: 100%;
+}
+
+.exp-main h1{
+    font-size: 3em;
+  font-weight: 500;
+  font-family: "poppins";
+  letter-spacing: 2px;
+}
+
+.horizontal {
+    width: 100%;
+    height: 1px;
+    border: 1px solid lightgray;
+}
+
+.exp-container{
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0;
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .exp-main{
+        width: 100%;
+    }
+    .exp-main h1{
+        text-align: center;
+    }
+
+    .exp-container{
+        justify-content: center;
+    }
+}
+
