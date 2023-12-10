@@ -3,6 +3,8 @@
 #skills{
     width: 100vw;
     min-height: 80vh;
+    display: flex;
+    align-content: center;
 }
 .skill-main{
     width: 90%;
@@ -73,7 +75,7 @@
     .skill-icons{
         width: 80%;
         margin: 0 auto;
-        margin-bottom: -4em;
+        margin-bottom: -8em;
     }
 
     .skill-section ul{
@@ -85,7 +87,11 @@
         font-family: "poppins";
         font-weight: 400;
         text-align: center;
-    }  
+    } 
+    .skill-develeper{
+        width: 50vw;
+        height: 40vh;
+    } 
     .skill-subheading{
         font-size: 1em;
     }
@@ -96,17 +102,13 @@
 
 @media screen and (max-width: 500px) {
     .skill-icons{
-        margin-bottom: -2rem;
-    }
-
-    .skill-develeper{
-        width: 50vw;
-        height: 60vh;
+        margin-bottom: -6rem;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .skill-icons{
-        margin-bottom: 1rem;
+    .skill-develeper{
+        margin-top: 6rem;
+        margin-bottom: -6rem;
     }
 }

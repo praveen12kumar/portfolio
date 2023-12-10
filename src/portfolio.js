@@ -69,6 +69,49 @@ const skillsSection = {
     display: true // Set false to hide this section, defaults to true
   };
 
+  const eductionInfo = {
+    display: true,
+    college:[
+      {
+        collegeName:"Maulana Azad National Institute of Technology, Bhopal",
+        logo: "https://i.ibb.co/5GgFL9G/manit.jpg",
+        subTitle: "Master in Technology in Computer Networking",
+        duration:"July-2019 - August-2021",
+      },
+      {
+        collegeName:"ABES Engineering College, Ghaziabad",
+        logo: "https://i.ibb.co/tHqw3wR/abes.jpg",
+        subTitle:"Bachelor of Technology in Information Technology",
+        duration: "July-2013 - July-2017"
+      }
+    ]
+  };
+
+  const workExperiences = {
+    display: true, //Set it to true to show workExperiences Section
+    experience: [
+      {
+        role: "Web Development Student",
+        company: "neoG Camp",
+        companylogo: "./assets/images/neogLogo.jpg",
+        date: "Feb 2023 – Present",
+        desc: "A part of web development (MERN stack) bootcamp",
+        descBullets: [
+          "Made major projects like e-commerce, social media using ReactJS.",
+          "Learnt various technologies like HTML, CSS, JavaScript, React, NodeJS, MongoDB, ExpressJS, TypeScript and Redux."
+        ]
+      },
+    ]
+  }
+
+  const contactInfo = {
+    title: "Contact Me ☎️",
+    subtitle:
+      "Discuss a project or just want to say hi? My Inbox is open for all.",
+    number: "+91-8975751438",
+    email_address: "kesarwani.neha9@gmail.com"
+  };
+
 
 
 
@@ -76,4 +119,7 @@ export {
     greeting,
     socialMediaLinks,
     skillsSection,
+    eductionInfo,
+    workExperiences,
+    contactInfo,
 }

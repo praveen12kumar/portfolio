@@ -1,0 +1,46 @@
+.education{
+    width: 100vw;
+    min-height: 70vh;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    >.education-main{
+        >.edu-heading{
+            font-size: 3em;
+            font-weight: 500;
+            font-family: "poppins";
+            letter-spacing: 2px;
+        }
+        >.horizontal{
+            width: 100%;
+            height: 1px;
+            border: 1px solid lightgray;
+        }
+    
+        >.edu-card-container{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            margin-top: 2rem;
+           
+        }
+       
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .education{
+        margin-top: 5rem;
+    }
+    .edu-heading{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .education{
+        margin-top: -3rem;
+    }
+}
+
