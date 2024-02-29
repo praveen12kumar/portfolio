@@ -14,7 +14,7 @@ const textVariants = {
     transition:{
       repeat:Infinity,
       repeatType:"mirror",
-      duration:20,
+      duration:15,
       staggerChildren:0.1,
     }
   }
