@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {eductionInfo} from "../../portfolio";
 import EducationCard from '../../components/educationCard/EducationCard';
 import {motion} from "framer-motion";
@@ -28,7 +28,7 @@ const Education = () => {
     <motion.div className="education-main"
     variants={eduVariants} initial="initial" whileInView="animate"
     >
-    <h1 className='edu-heading' variants={eduVariants} >
+    <h1 className='edu-heading' >
       Education
     </h1>
     <div className="horizontal"></div>

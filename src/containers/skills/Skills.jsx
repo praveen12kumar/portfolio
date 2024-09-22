@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+
 import Lottie from "lottie-react";
 import coder from "../../assets/lottie/coder.json";
 import { skillsSection } from "../../portfolio";

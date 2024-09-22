@@ -1,6 +1,6 @@
 .greeting{
-    width: 100vw; 
-    height: auto; 
+    width: 100%; 
+    min-height: 100svh; 
 }
 
 .greeting-main{

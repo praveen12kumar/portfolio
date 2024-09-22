@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./greeting.css";
 import { motion } from "framer-motion";
 import { greeting } from "../../portfolio";

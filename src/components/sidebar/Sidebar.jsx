@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./sidebar.scss";
 import { RxCross1 } from "react-icons/rx";
 import {motion} from "framer-motion"

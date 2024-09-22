@@ -1,5 +1,6 @@
 import { FaHtml5, FaNpm, FaCss3, FaReact, FaNode, FaDatabase, FaGithub } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiExpress  } from "react-icons/si";
+
 
 
 
@@ -104,30 +105,32 @@ const skillsSection = {
     ]
   };
 
+  //https://i.ibb.co/tMCgjNP/social-media.png
 
   const myProjects = {
-    title: "What i did",
+    title: "My Recent Work",
+    seemore:"Want to see more Click here",
     display: true, // Set false to hide this section, defaults to true
     projects: [
       {
-        image: "https://i.ibb.co/tMCgjNP/social-media.png",
-        projectName: "Socially",
+        image: "https://i.ibb.co/GPnsWc4/ecom1.jpg",
+        projectName: "Clothverse",
         projectDesc:
-          "A social media website where you can connect with your friends!",
+          "A Full-stack application using React for the Front-end and NodeJs with Express for the Backend search filter mechanism, a user-friendly shopping  cart, and a wishlist feature to improve user engagement and experience.",
         footerLink: [
           {
             name: "Visit Website",
-            url: "https://socially-media.netlify.app/"
+            url: "https://eshop-wk92.onrender.com/"
           },
           {
             name: "View Source Code",
-            url: "https://github.com/praveen12kumar/socially"
+            url: "https://github.com/praveen12kumar/Eshop"
           }
           //  you can add extra buttons here.
         ]
       },
       {
-        image: "https://i.ibb.co/7KGn5Bb/apna-pustakalaya.png",
+        image:"https://i.ibb.co/7KGn5Bb/apna-pustakalaya.png",
         projectName: "Apna Pustakalaya",
         projectDesc: "A books e-commerce website for all book lovers!",
         footerLink: [
@@ -142,7 +145,7 @@ const skillsSection = {
         ]
       },
       {
-        image: "https://i.ibb.co/k1DVgpg/component.png",
+        image:"https://i.ibb.co/k1DVgpg/component.png",
         projectName: "CSS Component Library",
         projectDesc:
           "A small app containing different components with their documentation in React JS.",
